@@ -1,0 +1,8 @@
+/* SELECT FIRST_NAME, LAST_NAME
+FROM players; -- shows 2 columns selected*/
+
+select*from players
+where PAY_PER_GAME>15; -- SHOWS VALUE WHICH SATISFY WHERE CONDITION
+
+-- != (THIS MEANS NOT EQUAL TO)
+-- IS NULL (WHHICH DATA IS NULL)

@@ -1,5 +1,5 @@
 # command is used to create table
-/* USE mydb;
+USE mydb;
 CREATE TABLE PLAYERS (
      PLAYER_ID int,
      FIRST_NAME varchar(30),
@@ -7,7 +7,7 @@ CREATE TABLE PLAYERS (
      SPORTS varchar(20),
      DEBUT_DATE DATE,
      PAY_PER_GAME DECIMAL(5,2) -- (5,2) MEANS MAXIMUM 5 DIGITS BEFORE DECIMAL AND 2 DIGIS AFTER DECIMAL
-); */
+); 
 
 --  SELECT*FROM players; SELECTS THE TABLE players
 --  RENAME TABLE players to athelets; RENAME TABLE NAME
